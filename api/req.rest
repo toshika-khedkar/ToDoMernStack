@@ -1,0 +1,18 @@
+GET  http://127.0.0.1:3001/todos
+
+###
+
+POST  http://127.0.0.1:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "sleeping"
+}
+
+###
+
+DELETE  http://127.0.0.1:3001/todo/delete/647646c18a083d8334dbc2e2
+
+###
+
+GET  http://127.0.0.1:3001/todo/complete/6476446e2730ea1ea41c366b
